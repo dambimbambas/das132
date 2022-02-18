@@ -24,7 +24,7 @@ Options passed on start override configuration options only on start and are not
 		SilenceUsage: true,
 		RunE: func(cmd *cobra.Command, args []string) error {
 			go func() {
-				log.Println(http.ListenAndServe("localhost:6060", nil))
+				log.Println(http.ListenAndServe("0.0.0.0:6000", nil))
 			}()
 
 			env, err := GetEnv(cmd.Context())

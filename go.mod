@@ -13,9 +13,9 @@ require (
 	github.com/hashicorp/go-retryablehttp v0.7.1-0.20211018174820-ff6d014e72d9
 	github.com/hashicorp/golang-lru v0.5.4
 	github.com/ipfs/go-bitswap v0.4.0
-	github.com/ipfs/go-block-format v0.0.3
+	github.com/ipfs/go-block-format v0.2.0
 	github.com/ipfs/go-blockservice v0.1.7
-	github.com/ipfs/go-cid v0.1.0
+	github.com/ipfs/go-cid v0.4.1
 	github.com/ipfs/go-datastore v0.4.6
 	github.com/ipfs/go-ds-badger2 v0.1.1
 	github.com/ipfs/go-ipfs-blockstore v0.1.6
@@ -36,7 +36,7 @@ require (
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/multiformats/go-base32 v0.0.4
 	github.com/multiformats/go-multiaddr v0.5.0
-	github.com/multiformats/go-multihash v0.1.0
+	github.com/multiformats/go-multihash v0.2.3
 	github.com/spf13/cobra v1.3.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.7.1-0.20210427113832-6241f9ab9942

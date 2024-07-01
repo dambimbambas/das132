@@ -6,6 +6,7 @@ replace github.com/ipfs/go-verifcid => github.com/celestiaorg/go-verifcid v0.0.1
 
 require (
 	github.com/BurntSushi/toml v1.0.0
+	github.com/benbjohnson/clock v1.3.0 // indirect
 	github.com/celestiaorg/go-libp2p-messenger v0.1.0
 	github.com/celestiaorg/nmt v0.8.0
 	github.com/celestiaorg/rsmt2d v0.3.0
@@ -39,10 +40,10 @@ require (
 	github.com/multiformats/go-multihash v0.1.0
 	github.com/spf13/cobra v1.3.0
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.7.1-0.20210427113832-6241f9ab9942
+	github.com/stretchr/testify v1.8.1
 	github.com/tendermint/tendermint v0.34.14
-	go.uber.org/fx v1.16.0
-	go.uber.org/zap v1.21.0
+	go.uber.org/fx v1.22.1
+	go.uber.org/zap v1.26.0
 )
 
 replace (
